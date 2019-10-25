@@ -49,6 +49,17 @@ class PairListTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            guard let student = pairs?[indexPath.section][indexPath.row]
+                else { return }
+            // remove from pairs and Core Data
+            pairs?[indexPath.section].remove(at: indexPath.row)
+            StudentsController.shared.remove(student: student)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
+    
     // MARK: - Actions
     
     @IBAction func shuffleButtonTapped(_ sender: Any) {

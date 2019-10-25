@@ -32,6 +32,11 @@ class StudentsController {
         CoreDataStack.saveContext()
     }
     
+    func remove(student: Student) {
+        CoreDataStack.context.delete(student)
+        CoreDataStack.saveContext()
+    }
+    
     // MARK: - Helper Methods
     
     func makePairs() -> [[Student]] {
