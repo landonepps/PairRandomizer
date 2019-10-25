@@ -83,8 +83,7 @@ class PairListTableViewController: UITableViewController {
             }
             
             StudentsController.shared.addStudent(withName: name)
-            self.pairs = StudentsController.shared.makePairs()
-            self.tableView.reloadData()
+            self.randomizePairs()
         }
         alertController.addAction(cancelAction)
         alertController.addAction(addAction)
