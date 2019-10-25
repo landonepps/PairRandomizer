@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44708AA22363570600639F99 /* PairListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44708AA12363570600639F99 /* PairListTableViewController.swift */; };
+		44708AA42363625100639F99 /* StudentDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44708AA32363625100639F99 /* StudentDetailTableViewController.swift */; };
 		44D484D623634F6900E79956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D484D523634F6900E79956 /* AppDelegate.swift */; };
 		44D484D823634F6900E79956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D484D723634F6900E79956 /* SceneDelegate.swift */; };
-		44D484DA23634F6900E79956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D484D923634F6900E79956 /* ViewController.swift */; };
 		44D484DD23634F6900E79956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D484DB23634F6900E79956 /* Main.storyboard */; };
 		44D484E023634F6900E79956 /* PairRandomizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D484DE23634F6900E79956 /* PairRandomizer.xcdatamodeld */; };
 		44D484E223634F6B00E79956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D484E123634F6B00E79956 /* Assets.xcassets */; };
 		44D484E523634F6B00E79956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D484E323634F6B00E79956 /* LaunchScreen.storyboard */; };
+		44D484EE2363512C00E79956 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D484ED2363512C00E79956 /* CoreDataStack.swift */; };
+		44D484F1236352F000E79956 /* StudentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D484F0236352F000E79956 /* StudentsController.swift */; };
+		44D484F42363531D00E79956 /* Student+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D484F32363531C00E79956 /* Student+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44708AA12363570600639F99 /* PairListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairListTableViewController.swift; sourceTree = "<group>"; };
+		44708AA32363625100639F99 /* StudentDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailTableViewController.swift; sourceTree = "<group>"; };
 		44D484D223634F6900E79956 /* PairRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D484D523634F6900E79956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D484D723634F6900E79956 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44D484D923634F6900E79956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44D484DC23634F6900E79956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44D484DF23634F6900E79956 /* PairRandomizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PairRandomizer.xcdatamodel; sourceTree = "<group>"; };
 		44D484E123634F6B00E79956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44D484E423634F6B00E79956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44D484E623634F6B00E79956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D484ED2363512C00E79956 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		44D484F0236352F000E79956 /* StudentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsController.swift; sourceTree = "<group>"; };
+		44D484F32363531C00E79956 /* Student+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44708AA0236356C300639F99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44708AA12363570600639F99 /* PairListTableViewController.swift */,
+				44708AA32363625100639F99 /* StudentDetailTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44708AA5236366DC00639F99 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				44D484DB23634F6900E79956 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		44D484C923634F6900E79956 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +83,43 @@
 		44D484D423634F6900E79956 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
+				44D484EF2363513400E79956 /* Models */,
+				44D484F2236352FB00E79956 /* ModelControllers */,
+				44708AA0236356C300639F99 /* ViewControllers */,
+				44708AA5236366DC00639F99 /* Storyboards */,
+				44D484EC2363500100E79956 /* Resources */,
+			);
+			path = PairRandomizer;
+			sourceTree = "<group>";
+		};
+		44D484EC2363500100E79956 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				44D484D523634F6900E79956 /* AppDelegate.swift */,
 				44D484D723634F6900E79956 /* SceneDelegate.swift */,
-				44D484D923634F6900E79956 /* ViewController.swift */,
-				44D484DB23634F6900E79956 /* Main.storyboard */,
 				44D484E123634F6B00E79956 /* Assets.xcassets */,
 				44D484E323634F6B00E79956 /* LaunchScreen.storyboard */,
 				44D484E623634F6B00E79956 /* Info.plist */,
-				44D484DE23634F6900E79956 /* PairRandomizer.xcdatamodeld */,
 			);
-			path = PairRandomizer;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44D484EF2363513400E79956 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44D484DE23634F6900E79956 /* PairRandomizer.xcdatamodeld */,
+				44D484ED2363512C00E79956 /* CoreDataStack.swift */,
+				44D484F32363531C00E79956 /* Student+Convenience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44D484F2236352FB00E79956 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44D484F0236352F000E79956 /* StudentsController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D484DA23634F6900E79956 /* ViewController.swift in Sources */,
+				44708AA22363570600639F99 /* PairListTableViewController.swift in Sources */,
 				44D484D623634F6900E79956 /* AppDelegate.swift in Sources */,
+				44708AA42363625100639F99 /* StudentDetailTableViewController.swift in Sources */,
+				44D484F42363531D00E79956 /* Student+Convenience.swift in Sources */,
 				44D484E023634F6900E79956 /* PairRandomizer.xcdatamodeld in Sources */,
 				44D484D823634F6900E79956 /* SceneDelegate.swift in Sources */,
+				44D484F1236352F000E79956 /* StudentsController.swift in Sources */,
+				44D484EE2363512C00E79956 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R9933TQJB;
-				INFOPLIST_FILE = PairRandomizer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PairRandomizer/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.landonepps.devmtn.PairRandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R9933TQJB;
-				INFOPLIST_FILE = PairRandomizer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PairRandomizer/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.landonepps.devmtn.PairRandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
